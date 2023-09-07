@@ -1,0 +1,67 @@
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Main content styles */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Data section styles */
+#data-display {
+    padding: 1rem;
+    text-align: left;
+}
+
+/* Slack Name styles */
+[data-testid="slackUserName"] {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Slack Display Picture styles */
+[data-testid="slackDisplayImage"] {
+    max-width: 100px;
+    border-radius: 50%;
+    margin: 1rem 0;
+}
+
+/* Current Day of the Week styles */
+[data-testid="currentDayOfTheWeek"] {
+    font-size: 1.2rem;
+    color: #007BFF;
+    margin: 0.5rem 0;
+}
+
+/* Current UTC Time styles */
+[data-testid="currentUTCTime"] {
+    font-size: 1.2rem;
+    color: #17A2B8;
+    margin: 0.5rem 0;
+}
+
+/* Track styles */
+[data-testid="myTrack"] {
+    font-size: 1.2rem;
+    color: #28A745;
+    margin: 0.5rem 0;
+}
+
+/* GitHub URL styles */
+[data-testid="githubURL"] {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+/* GitHub URL hover styles */
+[data-testid="githubURL"]:hover {
+    text-decoration: underline;
+}
